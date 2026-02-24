@@ -1,4 +1,6 @@
-﻿for (int i = 1; i <= 10; i++)
+﻿Console.Write("¿Desde qué número quieres bajar?: ");
+int n = int.Parse(Console.ReadLine());
+for (int i = n; i >= 1; i--)
 {
-    Console.WriteLine(i);
+    Console.Write(i + " ");
 }
