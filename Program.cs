@@ -1,4 +1,6 @@
-﻿for (int i = 1; i <= 10; i++)
+﻿Console.Write("Ingresa un número: ");
+int num = int.Parse(Console.ReadLine());
+for (int i = 1; i <= 10; i++)
 {
-    Console.WriteLine(i);
+    Console.WriteLine($"{num} x {i} = {num * i}");
 }
